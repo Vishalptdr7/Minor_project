@@ -1,0 +1,36 @@
+/* src/components/CourseList.css */
+
+.course-list {
+    padding: 20px;
+  }
+  
+  .category-filter {
+    margin-bottom: 20px;
+  }
+  
+  .courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .course-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .course-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .course-card p {
+    margin: 5px 0;
+  }
+  
